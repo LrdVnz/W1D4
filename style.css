@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #eaeded;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.header #logo {
+    background-color: #222f3e;
+}
+
+.header #logo img {
+    width: 10%;
+    height: 80%;
+    margin-left: 1%;
+}
+
+
+.header #navbar {
+    background-color: #354758;
+    padding-left: 56px; 
+}
+
+.header #navbar p {
+    display: inline-block;
+    margin-left: 1%;
+    color: antiquewhite;
+    font-weight: 500;
+}
+
+.main {
+    margin: 25px;
+}
+
+.img-descr {
+    background-color: #eaeded;
+}
+
+.main .top #gift-cards {
+    background-color: #f56600;
+    height: 40px;
+    text-align: center;
+    line-height: 40px; 
+    color: whitesmoke;
+}
+
+
+.main .top #gift-guides {
+    background-image: url('assets/bg-image.png');
+    height: 200px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.3em;
+}
+
+.main .top #gift-guides h2 {
+    padding-top: 80px; 
+}
+
+.main .middle .bar {
+  background-color: #feffff;
+  padding: 2px; 
+  text-align: center;
+}
+
+.main .middle .bar #images {
+  margin-right: 60px;
+  margin-left: 60px; 
+
+}
+
+.main .middle .bar #images img {
+    width: 23%;
+    margin: 20px;
+    margin-top: 0px; 
+    width: 360px;
+    height: 390px;
+    border-radius: 20px;
+}
+
+.main .middle .bar h3 {
+    margin-left: 20px; 
+}
+
+.main .middle .bar {
+    padding: 0px; 
+}
+
+.footer #logo {
+    background-color: #222f3e;
+    height: 150px;
+    padding: 50px;
+}
+
+.footer #logo img {
+    display: block;
+    width: 200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.footer #back {
+    background-color: #354758;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.footer #back a {
+    color: white;
+}
