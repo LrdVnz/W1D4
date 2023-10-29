@@ -15,6 +15,7 @@ img {
 
 .header #logo {
     background-color: #222f3e;
+    padding: 10px; 
 }
 
 .header #logo img {
@@ -69,25 +70,27 @@ img {
   background-color: #feffff;
   padding: 2px; 
   text-align: center;
-}
-
-.main .middle .bar #images {
-  margin-right: 60px;
-  margin-left: 60px; 
-
+  width: 97%;
 }
 
 .main .middle .bar #images img {
-    width: 23%;
     margin: 20px;
     margin-top: 0px; 
-    width: 360px;
-    height: 390px;
+    width: 380px;
+    height: 400px;
     border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 4px 4px 16px;
 }
 
-.main .middle .bar h3 {
-    margin-left: 20px; 
+#img-title {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.main .middle .bar h3,.main .middle .bar a {
+    display: inline-block; 
+    margin-left: 10px; 
 }
 
 .main .middle .bar {
